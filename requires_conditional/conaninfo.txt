@@ -1,0 +1,36 @@
+[settings]
+    arch=x86_64
+    build_type=Release
+    compiler=gcc
+    compiler.libcxx=libstdc++11
+    compiler.version=6
+    os=Linux
+
+[requires]
+    zlib/1.Y.Z
+
+[options]
+    zip=True
+
+[full_settings]
+    arch=x86_64
+    build_type=Release
+    compiler=gcc
+    compiler.libcxx=libstdc++11
+    compiler.version=6
+    os=Linux
+
+[full_requires]
+    zlib/1.2.11:f7e573cb501ccfc49e9e4d84de886bc1ef2e6ebb
+
+[full_options]
+    zip=True
+    zlib:fPIC=True
+    zlib:minizip=False
+    zlib:shared=False
+
+[recipe_hash]
+
+
+[env]
+

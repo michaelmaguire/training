@@ -1,0 +1,20 @@
+{
+ "profile_host": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Release\ncompiler=gcc\ncompiler.libcxx=libstdc++11\ncompiler.version=6\nos=Linux\nos_build=Linux\n[options]\n[build_requires]\n[env]\n",
+ "version": "0.3",
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "requires": [
+     "1"
+    ],
+    "options": "zip=True\nzlib:fPIC=True\nzlib:minizip=False\nzlib:shared=False",
+    "path": "/home/conan/training/requires_conditional/conanfile.py",
+    "pref": "hello/0.1:4958227a1a750ae8b0dd80eb91d586673a5ead87"
+   },
+   "1": {
+    "options": "fPIC=True\nminizip=False\nshared=False",
+    "pref": "zlib/1.2.11#0:f7e573cb501ccfc49e9e4d84de886bc1ef2e6ebb#0"
+   }
+  }
+ }
+}
