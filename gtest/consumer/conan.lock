@@ -1,0 +1,27 @@
+{
+ "version": "0.3",
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "path": "/home/conan/training/gtest/consumer/conanfile.txt",
+    "pref": null,
+    "options": "gtest:build_gmock=True\ngtest:fPIC=True\ngtest:hide_symbols=False\ngtest:no_main=False\ngtest:shared=False",
+    "requires": [
+     "1"
+    ]
+   },
+   "1": {
+    "pref": "hello/0.1@user/testing#3bc2b272948649d9bf788a48d3aa15ec:23d0c10de6d268696a85dd18ef224d29f59b9964#fb5121d8b341e5302ec9ee7a5de34658",
+    "options": "gtest:build_gmock=True\ngtest:fPIC=True\ngtest:hide_symbols=False\ngtest:no_main=False\ngtest:shared=False",
+    "requires": [
+     "2"
+    ]
+   },
+   "2": {
+    "pref": "gtest/1.8.1#0:0684540f6e0cb45e66f4c71b899d05e6220b04e7#0",
+    "options": "build_gmock=True\nfPIC=True\nhide_symbols=False\nno_main=False\nshared=False"
+   }
+  }
+ },
+ "profile_host": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Release\ncompiler=gcc\ncompiler.libcxx=libstdc++11\ncompiler.version=6\nos=Linux\nos_build=Linux\n[options]\n[build_requires]\n[env]\n"
+}
