@@ -23,15 +23,10 @@
     os_build=Linux
 
 [full_requires]
-    gtest/1.8.1:0684540f6e0cb45e66f4c71b899d05e6220b04e7
-    hello/0.1@user/testing:23d0c10de6d268696a85dd18ef224d29f59b9964
+    hello/0.1@user/testing:57547fe65fffc300f05aa42ee64b3b02eeabb6d7
 
 [full_options]
-    gtest:build_gmock=True
-    gtest:fPIC=True
-    gtest:hide_symbols=False
-    gtest:no_main=False
-    gtest:shared=False
+
 
 [recipe_hash]
 
